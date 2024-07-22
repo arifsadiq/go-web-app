@@ -1,3 +1,7 @@
+# Download Go
+
+The go1.22.5 can be downloaded from https://go.dev/dl/ depends upon your platform. 
+
 # Go Web Application
 
 This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
