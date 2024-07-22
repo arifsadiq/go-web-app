@@ -8,6 +8,8 @@ on:
           - 'README.md'
           - 'k8s/**'
           - 'ingress-controller/nginx/install-doc.md'
+          - 'helm-chart/**'
+          
     workflow_dispatch:
 
 jobs:
