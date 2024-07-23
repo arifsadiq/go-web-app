@@ -72,7 +72,7 @@ eksctl create cluster --name <cluster-name> --region <region>
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
 ```
 
-### Step 7: Create Helm chart
+### Step 7: Create Helm chart. As a prerequisites, install helm locally by referring the doc https://helm.sh/docs/intro/install/
 
 Create a folder 'helm' in the root directory and navigate to it
 
@@ -111,6 +111,15 @@ You can find the IP address from Non-authorative answer. Once you get the IP, op
 
 ```bash
 <IP-Address>    go-web-app.local
+```
+Once done, you can verify the application from http://go-web-app.local/home 
+
+So we can make sure that the application is running from Helm chart as well. Now you can go ahead and uninstall the helm as we are now going to deploy this through CI.
+
+To uninstall helm
+
+```bash
+helm uninstall go-web-app
 ```
 
 ### Step 9: Create CI using GitHub Actions
