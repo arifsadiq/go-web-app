@@ -198,6 +198,7 @@ Once you get into ArgoCD
 
 Once done, click on CREATE
 
+This will deploy the application to your EKS cluster. Once done you can access the application from http://go-web-app.local/home
 
 
 
