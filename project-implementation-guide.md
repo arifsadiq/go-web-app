@@ -141,6 +141,8 @@ helm uninstall go-web-app
 
 > To generate the DOCKERHUB_TOKEN, login to your dockerhub --> Account settings --> Personal access tokens --> generate new token --> Provide a description and scope as Read & Write
 
+![secret](https://github.com/user-attachments/assets/d42c0ed2-f32b-43c8-b859-2555df252a6a)
+
 Run the CI by commiting the changes and you can track this from Actions tab in your repository
 
 ### Step 9: Install ArgoCD
