@@ -189,7 +189,7 @@ Once you get into ArgoCD
 3. Project Name: default
 4. SYNC POLICY: Automatic
 5. Check Self heal box
-6. Repository URL : https://github.com/arifdevopstech/go-web-app.git [copy yours]
+6. Repository URL : https://github.com/arifsadiq/go-web-app.git [copy yours]
 7. Revision: HEAD
 8. Path: ArgoCD will identify the path. select that one
 9. Cluster URL: https://kubernetes.default.svc
