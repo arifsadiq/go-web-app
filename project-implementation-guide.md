@@ -117,9 +117,13 @@ You can find the IP address from Non-authorative answer. Once you get the IP, op
 
 > Create the directory .github/workflows in root folder and create an yaml file. In that yaml file we are writing the steps to implement the CI part.
   Steps involved in CI
+> 
     1. Build and Unit Test
+    
     2. Static code Analysis
+    
     3. Docker build and push
+    
     4. Update the image tag at helm chart
 
 > To create the secrets such as DOCKERHUB_USERNAME and DOCKERHUB_TOKEN, go to repository --> settings --> Secrets and variables --> Actions --> New repository secret
